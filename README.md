@@ -1,15 +1,13 @@
-# Steganography Application
+# Banking System in C++
 
-Steganography Application is a Python-based tool that allows users to hide secret text messages within image files using steganography techniques. It provides options for encrypting and decrypting messages, as well as saving the manipulated images and text content.
-
+This project is a small banking system program developed for fun and learning purposes. It is not a full-fledged banking system but rather a work in progress. The program is designed to perform basic banking tasks such as storing user details in files, implementing CRUD (Create, Read, Update, Delete) operations in a text file format, and providing a user-friendly Command Line Interface (CLI). Additionally, animations using C++ are incorporated to enhance the user experience.
 
 
 ## Table of Contents
 
 - [Features](#Features)
-- [Prerequisites](#Prerequisites)
 - [Installation Instructions](#Installation)
-- [Usage](#Usage)
+- [Disclaimer](#Disclaimer)
 - [Contributing](#Contributing)
 - [Author](#Author)
 
@@ -17,75 +15,50 @@ Steganography Application is a Python-based tool that allows users to hide secre
   
 ## Features
 
-- **Image Encryption:** Hide secret text messages within image files (.png, .jpg).
-- **Text Decryption:** Reveal hidden text messages from encrypted images.
-- **Support for Various File Formats:** Supports text files (.txt) and Word documents (.docx) for input and output.
-- **User-friendly Interface:** Easy-to-use graphical user interface built with Tkinter.
-- **Save Manipulated Data:** Save manipulated images and text content to local storage.
-- **Help and About Sections:** Provides user guides and information about the application.
+- **Customer Management:** Store customer details such as name, account number, balance, etc., in text files.
+- **CRUD Operations:** Perform CRUD operations on customer data, including creating new records, reading existing records, updating record details, and deleting records.
+- **Text File Storage:** Utilizes text files for storing customer information, making it easy to manage and access data.
+- **User-Friendly CLI: ** The program offers a simple and intuitive Command Line Interface, making it easy for users to interact with the banking system.
+- **Data Storage in Files:** Banking details are stored in text files, ensuring easy access and management of information.
+- **Animations:** Animations using C++ are included to make the program more interactive and enjoyable for users.
 
-
-
-## Prerequisites
-
-  - **C++ Compiler:**
-    - Make sure you have C++ compiler installed on your system. You can download and install and setup the compiler from [official site](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites).
-  - **IDE:**
-    - If you prefer using an Integrated Development Environment (IDE) like VS Code or Dev C++, you can import the project into your IDE and run it from there.
-    - Do not Use Turbo c++ or Online Compiler
 
 
 ## Installation
 
-1. **Clone the Repository:**
+### 1. Dev C++ Compiler Installation
+- **Ensure Dev C++ Compiler is Installed:** 
+  - Before proceeding, confirm that you have the Dev C++ compiler installed on your system.
+  - If not, download and install it from the [official site](https://www.bloodshed.net/).
+  - 
+### 2. Code Acquisition
+- **Copy the Source Code:**
+  - Visit the [Github](https://github.com/Gautam855/Banking-System-in-C-/blob/main/Banking%20System%20in%20C%2B%2B/Main-program.cpp).
+  - Copy the source code from the repository.
+### 3. Running the Code
+- **Execute the Code in Dev C++:**
+  - Open Dev C++ on your system.
+  - Paste the copied code into a new project or file within Dev C++.
+  - Save the file with an appropriate name.
+  - Compile and run the code within the Dev C++ environment.
 
-    ```bash
-    git clone https://github.com/Gautam855/Banking-System-in-C-.git
-    ```
-
- 
-
-2. **Navigate to the Cloned Repository:**
-
-    ```bash
-    cd Steganography-App
-    ```
-
-3. **Install Python Dependencies:**
-
-    Install the required dependencies using pip:
-
-    ```bash
-    pip install Pillow
-    ```
-     ```bash
-    pip install stegano
-    ```
-      ```bash
-    pip install python-docx
-      ```
-
-4. **Run the Application:**
-
-    ```bash
-    python SteganoApp.py
-    ```
+### 4. Enjoy the Program
+- **Experience the Banking System:**
+  - Once the code is successfully compiled and executed, explore the functionalities of the Banking System.
+  - Test various features and transactions to familiarize yourself with the program's capabilities.
 
 
+## Disclaimer:
 
-## Usage
-
-- **Encrypt Image:** Select an image file and a text message, then click "Encrypt" to hide the message within the image.
-- **Decrypt Image:** Choose an encrypted image file and click "Decrypt" to reveal the hidden text message.
-- **Browse:** Use the "Browse" button to select image files for encryption or decryption.
-- **Save:** After encryption or decryption, use the "Save" option to save the manipulated image or revealed text.
-- **Help:** Access the user guide for detailed instructions on using the application.
+-Please note that this banking system program is created solely for educational and entertainment purposes. It does not handle real financial transactions and should not be used for any commercial or practical banking purposes.
+-This program is not a fully functional banking system and is intended for educational purposes only.
+-Let's enjoy exploring the world of banking in a fun and interactive way with this small C++ program!
 
   
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit bug reports, feature requests, or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+This project is a fun endeavor, and I welcome contributions and suggestions to enhance its functionality or user experience. If you have any ideas or improvements, feel free to open an issue or submit a pull request.
 
 
 
